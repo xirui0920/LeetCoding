@@ -1,4 +1,4 @@
-package java.easy;
+package leetcode.java.easy;
 
 /**
  * author: ruix
