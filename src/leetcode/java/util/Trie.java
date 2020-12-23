@@ -1,5 +1,8 @@
 package leetcode.java.util;
 
+/**
+ * @author cyrus
+ */
 public class Trie {
 
     private TrieNode root;

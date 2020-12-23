@@ -1,15 +1,22 @@
 package leetcode.java.util;
 
+/**
+ * @author cyrus
+ */
 public class TrieNode {
 
-    // 子节点的链接数组
+    /**
+     * 子节点的链接数组
+     */
     private TrieNode[] links;
 
     private final int R = 26;
 
     private boolean isEnd;
 
-    // 非空子节点的数量
+    /**
+     * 非空子节点的数量
+     */
     private int size;
 
     public void put(char ch, TrieNode node) {
